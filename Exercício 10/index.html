@@ -9,13 +9,24 @@
 <body>
     <h1>Usando links externos</h1>
     <p>Você pode acessar o meu <a href="https://guigaddini.github.io" target="_blank" rel="external">repositório público no GitHub</a></p>
-    <p>Você também pode acessar meu <a href="https://www.youtube.com/guigaddini" target="_blank" rel="external">canal no youtube</a></p>.
-    //Recomenda-se a rel= no HTML5. O target="_blank" é para abrir em outra aba.
+    <p>Você também pode acessar meu <a href="https://www.youtube.com/guigaddini" target="_blank" rel="external">canal no youtube</a></p>
+    <!--Recomenda-se a rel= no HTML5. O target="_blank" é para abrir em outra aba.-->
 
-    <h2>Usando links internos agora</h2>
+    <h1>Usando links internos agora</h1>
     <p>Esta é a primeira página do site. Se você quiser, pode acessar a minha <a href="pag002.html" rel="next">segunda página</a></p>
     
     <p>Acesse também a nossa <a href="noticias/pag003.html" rel="prev" target="_self">página de notícias</a></p>
 
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="../Livro/pikachu.pdf" download="pikachu.pdf" type="application/pdf">Baixar o pikachu em pdf</a></li>
+
+        <!-- O type="application/pdf" download="nome-do-arquivo.pdf" é para baixar o arquivo, ao invés de abrir direto no navegador. Essa lista de "media types" pode ser achada em iana.org -->
+
+        <li><a href="../Livro/pikachu.zip" download="pikachu.zip" type="application/zip">Para a versão em ZIP, clique aqui</li>
+
+        <li><a href="#"> Link 3</a></li>
+        <!-- Quando não há link, colocar # para não quebrar a página -->
+    </ul>
 </body>
 </html>
